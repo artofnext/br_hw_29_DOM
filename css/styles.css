@@ -1,3 +1,14 @@
+
+ol {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 button {
     /* height: 50px; */
     /* width: 150px; */
@@ -52,6 +63,7 @@ button:active {
     visibility: hidden;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 
 .close {

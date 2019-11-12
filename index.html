@@ -12,7 +12,9 @@
 
 <body>
     <div class="buttons">
-        <button type="button" id="showModal" onclick="showModal()">Show Modal</button>
+        <button type="button" id="showModal">Show Modal</button>
+        <button type="button" id="playlist" onclick="document.getElementsByTagName('ol')[0].style.display='block'">Playlist</button>
+        <a href="trafficlight.html"><button type="button" id="trafficlight">Traffic Light</button></a>
     </div>
     <div id="myModal" class="modal">
 
@@ -25,8 +27,9 @@
 
     </div>
 
-    <!-- <script src="js/playlist.js"></script> -->
+    <script src="js/playlist.js"></script>
     <script src="js/modal_button.js"></script>
+    <!-- <script src="js/traffic_light.js"></script> -->
 </body>
 
 </html>
