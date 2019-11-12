@@ -1,10 +1,13 @@
 let modal = document.getElementById("myModal");
 let btn = document.getElementById("showModal");
 let span = document.getElementsByClassName("close")[0];
+let modalContent = document.getElementsByClassName('modal-content')[0];
 let counterClose = 0;
 
 btn.onclick = function() {
   modal.style.display = "block";
+  counterClose = 0;
+  modalContent.style = 'visibility: hidden;'
 }
 
 span.onclick = function() {
@@ -15,7 +18,6 @@ span.onmouseover = function() {
     this.style.float=(this.style.float == 'left') ? 'right' : 'left';
     counterClose ++;
     if (counterClose > 2) {
-        let modalContent = document.getElementsByClassName('modal-content')[0];
         modalContent.style = 'visibility: visible;'
     }
 }
