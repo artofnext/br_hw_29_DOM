@@ -7,15 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Beetroot Lesson 29 Homework DOM</title>
     <meta name="author" content="Artofnext">
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <div class="buttons">
-        <!-- <button type="button" onclick="startShow()">Show Object</button> -->
+        <button type="button" id="showModal" onclick="showModal()">Show Modal</button>
+    </div>
+    <div id="myModal" class="modal">
+
+        <div class="modal-wrapper">
+            <span class="close">&times;</span>
+            <p class="text">One Does Not Simply...</p>
+            <div class="modal-content">
+            </div>
+        </div>
 
     </div>
-    <script src="js/playlist.js"></script>
+
+    <!-- <script src="js/playlist.js"></script> -->
+    <script src="js/modal_button.js"></script>
 </body>
 
 </html>
