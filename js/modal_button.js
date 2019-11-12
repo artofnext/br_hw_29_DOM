@@ -5,13 +5,13 @@ let modalContent = document.getElementsByClassName('modal-content')[0];
 let counterClose = 0;
 
 btn.onclick = function() {
-  modal.style.display = "block";
-  counterClose = 0;
-  modalContent.style = 'visibility: hidden;'
+    modal.style.display = "block";
+    counterClose = 0;
+    modalContent.style = 'visibility: hidden;'
 }
 
 span.onclick = function() {
-  modal.style.display = "none";
+    modal.style.display = "none";
 }
 
 span.onmouseover = function() {
@@ -23,9 +23,9 @@ span.onmouseover = function() {
 }
 
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
 
 // let modalContent = document.getElementsByClassName('modal-content')[0];
