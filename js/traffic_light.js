@@ -10,13 +10,11 @@ function switchLight() {
         document.getElementById('red').classList.add('active');
         break;
     case 1:
+    case 3:
         document.getElementById('yellow').classList.add('active');
         break;
     case 2:
         document.getElementById('green').classList.add('active');
-        break;
-    case 3:
-        document.getElementById('yellow').classList.add('active');
         break;
     }
     counter ++;
