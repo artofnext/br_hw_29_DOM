@@ -50,6 +50,7 @@ button:active {
 .modal-wrapper {
     margin: 15% auto;
     width: 80%;
+    max-width: 768px;
     padding: 20px;
     border: 1px solid #888;
     background-color: #fefefe;
