@@ -1,9 +1,17 @@
-.red {
+#red, 
+#yellow, 
+#green {
+    fill:gray;
+    transition: all .3s ease-in-out;
+}
+
+#red.active {
     fill: red;
 }
-.yellow {
+#yellow.active {
     fill: yellow;
 }
-.green {
-    fill: green;
+#green.active {
+    fill: lime;
 }
+
